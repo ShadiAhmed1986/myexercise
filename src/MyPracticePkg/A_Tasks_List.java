@@ -487,3 +487,7 @@ Interview Question : What is constructor ?
 
 //This first commit from shadi branch
 //Here is shadi conflicting change
+
+//This first commit from shadi branch 
+//Here is a conflict of remote master branch
+
