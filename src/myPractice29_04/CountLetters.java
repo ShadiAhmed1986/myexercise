@@ -13,7 +13,7 @@ public class CountLetters {
 		int counter = 1;
 		
 		String newStr = "";
-		//char ch;
+		
 		for (int i = 1; i < str.length(); i++) {
 			if(str.charAt(i) == str.charAt(i - 1)) {
 				counter++;
