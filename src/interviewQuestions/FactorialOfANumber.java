@@ -6,7 +6,7 @@ public class FactorialOfANumber {
 	
 	/* 
     ===>>>> COMMON INTERVIEW QUESTION <<<====
-TYPE A CODE TO CALCULATE TEH FACTORIAL OF A GIVEN NUMBER
+ TYPE A CODE TO CALCULATE TEH FACTORIAL OF A GIVEN NUMBER
 
 Ask user to enter beginning and ending values 
 Type a code to calculate the multiplication of the integers from the beginning 
