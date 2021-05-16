@@ -26,7 +26,6 @@ mapBully({"a": "candy", "b": "carrot", "c": "meh"}) → {"a": "", "b": "candy", 
 		  map.put("b", "carrot");
 		  map.put("c", "meh");
 		  
-		  System.out.println(map);
 		  System.out.println(mapBully(map));
 	}
 	
@@ -37,7 +36,6 @@ mapBully({"a": "candy", "b": "carrot", "c": "meh"}) → {"a": "", "b": "candy", 
 		    map.put("a", "");
 		  }
 		  return map;
-
 	}
 
 }
