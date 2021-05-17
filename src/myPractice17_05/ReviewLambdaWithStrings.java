@@ -129,10 +129,5 @@ public class ReviewLambdaWithStrings {
 	public static boolean nonElementLengthEleven(List<String> l) {
 		return l.stream().noneMatch(t->t.length()==11);
 	}
-	
-	
-	
-	
-	
 
 }
