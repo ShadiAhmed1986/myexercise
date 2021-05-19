@@ -1,10 +1,12 @@
-package myPractice15_05;
+package myPractice19_05;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Word0 {
 	
 	/*
-	 	Given an array of strings, 
-	 	return a Map<String, Integer> 
+	 	Given an array of strings, return a Map<String, Integer> 
 	 	containing a key for every different string in the array, 
 	 	always with the value 0. 
 	 	For example the string "hello" makes the pair "hello":0. 
@@ -17,7 +19,21 @@ word0(["c", "b", "a"]) → {"a": 0, "b": 0, "c": 0}
 
 	public static void main(String[] args) {
 		
+		String arr[] = {"a", "b", "a", "c", "b"};
+		
+		System.out.println(word0(arr));
 
+	}
+	
+	public static Map<String, Integer> word0(String[] str) {
+		Map<String,Integer> map = new HashMap<>(); 
+		
+		for (int i = 0; i < str.length; i++) {
+			map.put(str[i], 0);
+		}
+		
+		return map;
+		
 	}
 
 }

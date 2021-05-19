@@ -70,8 +70,6 @@ public class ReviewLambdaWithFiles {
 		} catch (IOException e) {
 			System.out.println("Could not read the file");
 		}
-	
-
 	}
 
 }
