@@ -7,7 +7,7 @@ public class MinElement {
 	
 	/*
 	  arr[]= {3,4,5, 7,8,9,12,34,7,8,90}; 
-	  is given array, find the  two elements who has min value  in a given list 
+	  is given array, find the two elements who has min value  in a given list 
 	  // output : [3,4];
 	 */
 

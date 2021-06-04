@@ -19,6 +19,8 @@ wordCount(["c", "c", "c", "c"]) → {"c": 4}
 		String arr[] = {"a", "b", "a", "c", "b"};
 
 		System.out.println(wordCount(arr));
+		String ss = "shadi";
+		System.out.println(ss.intern());
 	}
 	
 	public static Map<String, Integer> wordCount(String[] str) {
