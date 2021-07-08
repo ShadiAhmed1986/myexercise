@@ -13,14 +13,15 @@ public class FindRepeatedChars {
 
 	public static void main(String[] args) {
 		
-		String str = "Shadi Ahmed";
+		String str = "This is a String";
 
 		findReapeatedChars(str);
 	}
 	
 	public static void findReapeatedChars(String str) {
 		
-		String arr[] = str.split("");
+		String arr[] = str.replace(" ", "").split("");
+		System.out.println(Arrays.toString(arr));
 		
 		Map<String, Integer> myMap = new HashMap();
 		
