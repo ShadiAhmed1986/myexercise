@@ -13,7 +13,7 @@ public class ArraysOnly14 {
 	 */
 	public static void main(String[] args) {
 		
-		int arr [] = {1, 4, 1, 4,3};
+		int arr [] = {1, 4, 1, 4};
 
 		System.out.println(only14(arr) );
 	}
